@@ -1,38 +1,108 @@
-.App {
-  text-align: center;
+body{
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.body{
+  margin: 10px;
+  padding: 5px;
+  border: 2px solid #2464ab;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.header{
+  margin: 5px;
+  background-color: #275c3b;
   color: white;
+  text-align: center;
+  border: 2px solid #2464ab;
 }
 
-.App-link {
-  color: #61dafb;
+.mid-section{
+  display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.side-nav{
+  width: 20%;
+  height: 74vh;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #723ba3;
+  color: white;
+  text-align: center;
+  border: 2px solid #2464ab;
 }
+
+.main-section{
+  width: 80%;
+  height: 74vh;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #723ba3;
+  color: white;
+  text-align: center;
+  border: 2px solid #2464ab;
+}
+
+.main-section-div{
+  height: 100px;
+}
+
+.footer{
+  margin: 5px;
+  background-color: #275c3b;
+  color: white;
+  text-align: center;
+  border: 2px solid #2464ab;
+}
+
+/* .form-bg{
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid darkgray;
+  border-radius: 10px;
+}
+
+h2{
+  text-align: center;
+  margin-top: 0;
+  color: dodgerblue;
+  font-weight: bold;
+}
+
+.form-group{
+  margin-bottom: 15px;
+}
+
+label{
+  display: block;
+  margin-bottom: 5px;
+  color: rgb(68, 68, 68);
+}
+
+input{
+  width: 97%;
+  height: 30px;
+  padding: 5px;
+  border: 1px solid darkgray;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+button{
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: dodgerblue;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+}
+
+button:hover{
+  background-color: rgb(21, 102, 184);
+} */
